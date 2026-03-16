@@ -1,5 +1,7 @@
 A complete test automation project built with Playwright and TypeScript. It tests a full e-commerce website from login to checkout.
 
+
+
 What does it test ?
 - Login & Register: sign in or create a new account
 - Home Page: browse recently added products
