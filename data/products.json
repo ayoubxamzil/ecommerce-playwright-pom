@@ -1,0 +1,27 @@
+{
+  "recentProducts": [
+    {
+      "name": "New Balanca 470",
+      "website": "Hoojan",
+      "price": "1200MAD",
+      "id": "sneakers-001"
+    },
+    {
+      "name": "Nike Air Force",
+      "website": "Planet Sport",
+      "price": "900MAD",
+      "id": "sneakers-002"
+    },
+    {
+      "name": "Hoka",
+      "website": "Mooja",
+      "price": "1500",
+      "id": "sneakers-003"
+    }
+  ],
+  "searchTerms": {
+    "exact": "New Balanca 470",
+    "invalid": "xyzproductnotexist999"
+  },
+  "quantities": [1, 2, 3, 5]
+}

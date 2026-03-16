@@ -1,0 +1,17 @@
+{
+  "validUser": {
+    "email": "ayoubamzil@test.com",
+    "password": "pwd123_",
+    "firstName": "Ayoub",
+    "lastName": "Amzil",
+    "postalCode": "10000"
+  },
+  "invalidUser": {
+    "email": "invalid",
+    "password": "wrongpassword"
+  },
+  "incompleteUser": {
+    "email": "",
+    "password": "pwd123_"
+  }
+}

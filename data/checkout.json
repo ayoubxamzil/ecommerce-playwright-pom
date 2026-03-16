@@ -1,0 +1,69 @@
+{
+  "validAddress": {
+    "firstName": "Ayoub",
+    "lastName": "Amzil",
+    "email": "ayoubamzil@gmail.com",
+    "phone": "0612345678",
+    "address": "123 Avenue Mohammed V",
+    "city": "Rabat",
+    "postalCode": "10000",
+    "country": "Morocco"
+  },
+  "testCases": [
+    {
+      "firstName": "",
+      "lastName": "Amzil",
+      "email": "ayoub@gmail.com",
+      "phone": "0612345678",
+      "address": "11 rue tanger",
+      "city": "Rabat",
+      "postalCode": "20000",
+      "country": "Morocco",
+      "error": "First Name is required"
+    },
+    {
+      "firstName": "Ayoub",
+      "lastName": "",
+      "email": "ayoub@gmail.com",
+      "phone": "0612345678",
+      "address": "11 rue tanger",
+      "city": "Rabat",
+      "postalCode": "20000",
+      "country": "Morocco",
+      "error": "Last Name is required"
+    },
+    {
+      "firstName": "Ayoub",
+      "lastName": "Amzil",
+      "email": "",
+      "phone": "0612345678",
+      "address": "11 rue tanger",
+      "city": "Rabat",
+      "postalCode": "20000",
+      "country": "Morocco",
+      "error": "Email is required"
+    },
+    {
+      "firstName": "Ayoub",
+      "lastName": "Amzil",
+      "email": "ayoub@gmail.com",
+      "phone": "0612345678",
+      "address": "",
+      "city": "Rabat",
+      "postalCode": "40000",
+      "country": "Morocco",
+      "error": "Address is required"
+    },
+    {
+      "firstName": "Ayoub",
+      "lastName": "Amzil",
+      "email": "ayoub@gmail.com",
+      "phone": "0612345678",
+      "address": "11 rue tanger",
+      "city": "Rabat",
+      "postalCode": "",
+      "country": "Morocco",
+      "error": "Postal Code is required"
+    }
+  ]
+}
